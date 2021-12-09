@@ -1,0 +1,39 @@
+Config { font = "xft:Office Code Pro:pixelsize=18:antialias=true:hinting=true"
+       , additionalFonts =  [ "xft:Font Awesome 5 Free Solid:pixelsize=12"
+                            , "xft:FiraCode Nerd Font:pixelsize=11:antialias=true:hinting=true"       
+                            ]
+       , borderColor = "black"
+       , border = TopB
+       , bgColor = "#1a1a1a"
+       , fgColor = "#ededed"
+       , alpha = 255
+       , position = Top
+       , textOffset = -1
+       , iconOffset = -1
+       , lowerOnStart = True
+       , pickBroadest = False
+       , persistent = False
+       , hideOnStart = False
+       , iconRoot = "."
+       , allDesktops = True
+       , overrideRedirect = True
+       , commands = [ Run Weather "EGPF" ["-t","<station>: <tempC>C",
+                                          "-L","18","-H","25",
+                                          "--normal","green",
+                                          "--high","red",
+                                          "--low","lightblue"] 36000
+                    , Run Cpu ["-L","3","-H","50",
+                               "--normal","green","--high","red"] 10
+                    , Run Com ".local/bin/get-network-name.sh" [""] "network" 50
+                    , Run Com ".local/bin/volume.sh" [""] "vol" 1
+                    , Run Com "lux" ["-G"] "bright" 10
+                    , Run Swap [] 10
+                    , Run Com "uname" ["-s","-r"] "" 36000
+                    , Run Date "%l:%M %p" "date" 600
+		    , Run BatteryP ["BAT1"] ["-t","<fn=1> </fn><acstatus>-<left>%"] 360
+		    , Run UnsafeStdinReader            
+                    ]
+       , sepChar = "%"
+       , alignSep = "}{"
+       , template = " %UnsafeStdinReader%}{<action=`kitty nmtui`><fn=1>  </fn>%network%</action> <fn=1></fn> <fn=2> </fn>%bright% <fn=1></fn> <fn=1> </fn>%vol% <fn=1></fn> %battery% <fn=1></fn> <fn=1> </fn>%date% "
+       }

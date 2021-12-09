@@ -1,0 +1,33 @@
+font:
+  size: 10.0
+background_opacity: 0.97
+window:
+  padding:
+    x: 6
+    y: 6
+colors:
+  primary:
+    background: '0x1a1a1a'
+    foreground: '0xededed'
+  cursor:
+    text: '0xededed'
+    cursor: '0x1a1a1a'
+  normal:
+    black:   '0x1a1a1a'
+    red:     '0xededed'
+    green:   '0xededed'
+    yellow:  '0xededed'
+    blue:    '0xededed'
+    magenta: '0xededed'
+    cyan:    '0x15b389'
+    white:   '0xededed'
+  bright:
+     black:   '0x15b389'
+     red:     '0x15b389'
+     green:   '0x15b389'
+     yellow:  '0x15b389'
+     blue:    '0x15b389'
+     magenta: '0x15b389'
+     cyan:    '0x15b389'
+     white:   '0x15b389'
+

@@ -1,0 +1,148 @@
+{
+   "checksum": "02ed89cbf4bb8ce7481bf9401d1100a3",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13281762697000000",
+            "guid": "840ffdd6-b0a3-4f71-9e7f-09d598ba77d7",
+            "id": "5",
+            "name": "Getting Started",
+            "type": "url",
+            "url": "https://www.mozilla.org/en-US/firefox/central/"
+         }, {
+            "date_added": "13281762698000000",
+            "guid": "e5a1cae6-4147-40ed-a96b-08d1a7f5bdab",
+            "id": "6",
+            "name": "openSUSE",
+            "type": "url",
+            "url": "https://www.opensuse.org/"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13281762697000000",
+                  "guid": "7fdd3057-d02e-4658-a10e-29c31f6b9060",
+                  "id": "9",
+                  "name": "Get Help",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/en-US/products/firefox"
+               }, {
+                  "date_added": "13281762697000000",
+                  "guid": "c85c298e-e193-4d29-be92-0f1562e17c7a",
+                  "id": "10",
+                  "name": "Customize Firefox",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize"
+               }, {
+                  "date_added": "13281762697000000",
+                  "guid": "0ccaafda-af24-4c00-85ae-08dea04938b4",
+                  "id": "11",
+                  "name": "Get Involved",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/contribute/"
+               }, {
+                  "date_added": "13281762697000000",
+                  "guid": "0a994fb8-adbb-4c1b-a4e5-8045bf961347",
+                  "id": "12",
+                  "name": "About Us",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/about/"
+               } ],
+               "date_added": "13283450043836047",
+               "date_modified": "0",
+               "guid": "c48aad52-4b23-4aed-8a0e-cc775e836c04",
+               "id": "8",
+               "name": "Mozilla Firefox",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13281762697000000",
+                  "guid": "d7ddbf2a-67b8-421d-9625-2788df5f618b",
+                  "id": "14",
+                  "name": "openSUSE",
+                  "type": "url",
+                  "url": "https://www.opensuse.org/"
+               }, {
+                  "date_added": "13281762698000000",
+                  "guid": "95d581bd-0140-465d-a1f6-48b5fe46ef6c",
+                  "id": "15",
+                  "name": "openSUSE Documentation",
+                  "type": "url",
+                  "url": "https://doc.opensuse.org/"
+               }, {
+                  "date_added": "13281762698000000",
+                  "guid": "aba86585-c96d-4b36-9254-94ce0e117b3b",
+                  "id": "16",
+                  "name": "openSUSE Software",
+                  "type": "url",
+                  "url": "https://software.opensuse.org/"
+               }, {
+                  "date_added": "13281762698000000",
+                  "guid": "8541ca2e-2f57-4ba7-b8c7-5594c26bdd7c",
+                  "id": "17",
+                  "name": "openSUSE News",
+                  "type": "url",
+                  "url": "https://news.opensuse.org/"
+               }, {
+                  "date_added": "13281762698000000",
+                  "guid": "db8fb6aa-993a-460e-8635-fd8d42b9dad2",
+                  "id": "18",
+                  "name": "How to Participate in openSUSE",
+                  "type": "url",
+                  "url": "https://en.opensuse.org/Portal:How_to_participate"
+               }, {
+                  "date_added": "13281762698000000",
+                  "guid": "537ae8fa-6c38-41ba-b16a-45630d169807",
+                  "id": "19",
+                  "name": "openSUSE Forums",
+                  "type": "url",
+                  "url": "https://forums.opensuse.org/"
+               }, {
+                  "date_added": "13281762698000000",
+                  "guid": "68a95373-72d5-4d12-8846-b1bde4eb1988",
+                  "id": "20",
+                  "name": "Planet openSUSE",
+                  "type": "url",
+                  "url": "https://planet.opensuse.org/"
+               } ],
+               "date_added": "13283450043836304",
+               "date_modified": "0",
+               "guid": "5701cf0b-2b83-421e-a584-9c69eabf187c",
+               "id": "13",
+               "name": "openSUSE",
+               "type": "folder"
+            } ],
+            "date_added": "13283450043835272",
+            "date_modified": "13283450043835272",
+            "guid": "dc26ed00-98c4-4a59-b8cc-0b42be049662",
+            "id": "7",
+            "name": "Imported From Firefox",
+            "type": "folder"
+         } ],
+         "date_added": "13283450014265196",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13283450014265199",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13283450014265202",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

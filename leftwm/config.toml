@@ -16,7 +16,7 @@ focused_border_color = "#000000"
 
 [[keybind]]
 command = "Execute"
-value = "dmenu_run"
+value = "~/.config/polybar/grayblocks/scripts/launcher.sh &"
 modifier = ["modkey"]
 key = "p"
 
@@ -38,9 +38,9 @@ key = "r"
 
 [[keybind]]
 command = "Execute"
-value = "loginctl terminate-session 1"
+value = "~/.config/polybar/grayblocks/scripts/powermenu.sh &"
 modifier = ["modkey", "Shift"]
-key = "x"
+key = "e"
 
 [[keybind]]
 command = "Execute"

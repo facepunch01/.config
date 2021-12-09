@@ -1,0 +1,5 @@
+2021/11/30-12:29:52.683 5 Reusing MANIFEST /home/jake/.config/google-chrome/Profile 1/Local Storage/leveldb/MANIFEST-000001
+2021/11/30-12:29:52.687 5 Recovering log #3
+2021/11/30-12:29:52.696 5 Level-0 table #3: started
+2021/11/30-12:29:52.708 5 Level-0 table #3: 88792 bytes OK
+2021/11/30-12:29:52.721 5 Delete type=0 #3

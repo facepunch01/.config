@@ -1,0 +1,38 @@
+{
+   "background": {
+      "page": "src/background.html"
+   },
+   "browser_action": {
+      "default_icon": "src/graphics/icon128.png",
+      "default_popup": "src/popup.html"
+   },
+   "commands": {
+      "sprint-read-shortcut": {
+         "description": "Sprint read selected text",
+         "suggested_key": {
+            "default": "Ctrl+Shift+Z",
+            "mac": "MacCtrl+Shift+Z"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "css": [ "src/css/stylepage.css" ],
+      "js": [ "lib/jquery/jquery.min.js", "src/content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com https://apis.google.com https://connect.facebook.net; object-src 'self'",
+   "description": "Speed reading made easy, train yourself to read 1800+ words per minute. Rapid serial visual presentation (RSVP) at its best!",
+   "icons": {
+      "128": "src/graphics/icon128.png",
+      "16": "src/graphics/icon16.png",
+      "48": "src/graphics/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjHI/+uE8Tjt9Z6zmlZvdJXgJA8fqgA4UJfZUZYmesAmDUxCOACxBCQvs8RO5IuQnCWgFiW8eAV6KMARrMJXViCa9FrArZS/2SYZfNS7Ug4DujHahFCjN6kCG1q5xX4dAqdkDX0Py5h5m3ekWoIn5ulgcx8ym3b+rGzFZ3eUjhUoZ/BpK930fbF4Yr9rOr9d/tz+80ZWdnexQRlx3HMDuQfL5XF42PpocEXhf6ZVuAqhsTSyhXxDypIqz0s3Gsb6n2xa8IID6PcSOw5gOR4FfmljWXCyBzUAi5vlbUJes8xGHn1T7kh9nUBHfBZVcSW2nJT0aglcflPZ8g+7HN97zyQIDAQAB",
+   "manifest_version": 2,
+   "name": "Sprint Reader - Speed Reading Extension",
+   "options_page": "src/welcome.html",
+   "permissions": [ "contextMenus", "clipboardRead", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.5",
+   "web_accessible_resources": [ "*.png" ]
+}

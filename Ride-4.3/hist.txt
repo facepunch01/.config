@@ -1,0 +1,100 @@
+      ∪ 'ab' 'ba' 'ab' 1 1 2
+      ∪ 1 2 43 3
+      6 6 ⍴ 1 2 3 4 5 6
+      6 6 ⍴ 2 0 0 0 0 0 0
+      )CLEAR
+      6 6 ⍴ 1 2 3 4 5 6
+      6 6 ⍴ 1 2 3
+      6 6 ⍴ 2 0 0 0 0 0 0
+      6 6 ⍴ 1 0 0 0 0 0 0
+      var ← 25÷6
+      25÷6
+      5×5
+      6 6 ⍴ 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      6 6 ⍴ 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      6 6 ⍴ 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      6×6
+      6 6 ⍴ 1 0 0 0 0 0 0 0
+      6 6 ⍴ 1 0 0 0 0 0 0 0
+      5 5 ⍴ 1 0 0 0 0 0
+      6 6 ⍴ 1 0 0 0 0 0
+      6 5 ⍴ 1 0 0 0 0 0
+      5 5 ⍴ 1 0 0 0 0 0
+      )CLEAR
+Wed Dec  8 13:51:39 2021
+clear ws
+      this
+VALUE ERROR: Undefined name: this
+      this
+      ∧
+      )CLEAR
+clear ws
+      var ← 4 4 ⍴ 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      var
+1 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+      fact←{             ⍝ Factorial ⍵.
+SYNTAX ERROR
+      fact←{             ⍝ Factorial ⍵.
+                                       ∧
+      fact←{
+SYNTAX ERROR
+      fact←{
+            ∧
+      fact ← {             ⍝ Factorial ⍵.
+SYNTAX ERROR
+      fact←{             ⍝ Factorial ⍵.
+                                       ∧
+      fact ← {}
+      fact ← {}
+      fact ← {             ⍝ Factorial ⍵.
+          ⍵≤1: 1         ⍝ small ⍵: finished
+          ⍵×∇ ⍵-1        ⍝ otherwise: recurse
+      }
+      fact←{
+          ⍵≤1: 1
+          ⍵×∇ ⍵-1
+      }
+      fact←{             ⍝ Factorial ⍵.
+          ⍵≤1: 1         ⍝ small ⍵: finished
+          ⍵×∇ ⍵-1        ⍝ otherwise: recurse
+      }
+      var
+      var ← 4 4 ⍴ 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      )CLEAR
+      this
+      )CLEAR
+      var
+      var ← 4 4 ⍴ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 
+      this
+      final
+      final ← tby ÷ tbx
+      tbx
+      tby
+      tby ← TopY - BottomY
+      tbx ← TopX - BottomX
+      TopX ← 4
+      TopY ← 7
+      BottomX ← 6
+      BottomY ← 2
+      final
+      final ← tby ÷ tbx
+      tbx
+      tby
+      tbx ← TopX - BottomX
+      tby ← TopY - BottomY
+      TopX ← 6
+      TopY ← 3
+      BottomX ← 5
+      BottomY ← ¯1
+      final
+      final ← tby ÷ tbx
+      tby
+      tbx
+      tby ← ⍎ 'TopY - BottomY'
+      tbx ← ⍎ 'TopX - BottomX'
+      TopY ← ¯6
+      final
+      final ← tby ÷ tbx
